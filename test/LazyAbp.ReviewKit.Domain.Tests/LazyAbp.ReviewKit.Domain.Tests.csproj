@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>LazyAbp.ReviewKit</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <ProjectReference Include="..\LazyAbp.ReviewKit.EntityFrameworkCore.Tests\LazyAbp.ReviewKit.EntityFrameworkCore.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
