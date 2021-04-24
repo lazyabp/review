@@ -1,9 +1,18 @@
 <Project>
-  <PropertyGroup>
-    <LangVersion>latest</LangVersion>
-    <Version>0.1.0</Version>
+  <PropertyGroup> 
+    <LangVersion>latest</LangVersion> 
+    <Version>0.0.1</Version>
+    <Authors>LazyAbp</Authors>
     <NoWarn>$(NoWarn);CS1591;CS0436</NoWarn>
-	<AbpProjectType>module</AbpProjectType>
+    <PackageProjectUrl>https://github.com/lazyabp/</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/lazyabp/</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>$(SolutionDir)LocalNuget</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

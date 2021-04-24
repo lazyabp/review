@@ -79,7 +79,7 @@ namespace LazyAbp.ReviewKit
                 rootId = parent.ParentId.HasValue ? parent.RootId : parent.Id;
             }
 
-            var review = new Review(GuidGenerator.Create(), CurrentUser.GetId(), input.ModuleName, input.SubjectId, input.ParentId, rootId, input.Content, ipAddress, userAgent);
+            var review = new Review(GuidGenerator.Create(), CurrentUser.TenantId, CurrentUser.GetId(), input.ModuleName, input.SubjectId, input.ParentId, rootId, input.Content, ipAddress, userAgent);
 
             review = await _repository.InsertAsync(review);
 

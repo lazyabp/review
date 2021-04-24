@@ -76,6 +76,7 @@ namespace LazyAbp.ReviewKit
 
         public Review(
             Guid id,
+            Guid? tenantId,
             Guid? userId, 
             [NotNull] string moduleName,
             [NotNull] string subjectId,
@@ -90,6 +91,7 @@ namespace LazyAbp.ReviewKit
             Check.NotNullOrEmpty(subjectId, nameof(subjectId));
             Check.NotNullOrEmpty(content, nameof(content));
 
+            TenantId = tenantId;
             UserId = userId;
             ModuleName = moduleName;
             SubjectId = subjectId;
