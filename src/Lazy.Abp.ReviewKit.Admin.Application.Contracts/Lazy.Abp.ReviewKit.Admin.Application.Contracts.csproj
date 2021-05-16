@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lazy.Abp.ReviewKit.Domain.Shared\Lazy.Abp.ReviewKit.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Lazy.Abp.ReviewKit.Application.Contracts\Lazy.Abp.ReviewKit.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="$(AbpVersion)" />
+  </ItemGroup>
+  
+</Project>

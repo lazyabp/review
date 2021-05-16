@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Lazy.Abp.ReviewKit.Admin.Application.Contracts\Lazy.Abp.ReviewKit.Admin.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="$(AbpVersion)" />
+  </ItemGroup>
+  
+</Project>
