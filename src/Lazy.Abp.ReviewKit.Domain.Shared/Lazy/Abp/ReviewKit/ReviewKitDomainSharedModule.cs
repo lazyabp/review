@@ -25,7 +25,7 @@ namespace Lazy.Abp.ReviewKit
                 options.Resources
                     .Add<ReviewKitResource>("en")
                     .AddBaseTypes(typeof(AbpValidationResource))
-                    .AddVirtualJson("/Lazy.Abp/ReviewKit/Localization");
+                    .AddVirtualJson("/Lazy/Abp/ReviewKit/Localization/ReviewKit");
             });
 
             Configure<AbpExceptionLocalizationOptions>(options =>
