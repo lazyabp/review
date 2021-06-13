@@ -41,11 +41,6 @@ namespace Lazy.Abp.ReviewKit.Admin
             );
         }
 
-        public override Task<ReviewDto> CreateAsync(ReviewCreateUpdateDto input)
-        {
-            throw new NotImplementedException();
-        }
-
         [Authorize(ReviewKitAdminPermissions.Review.Audit)]
         public async Task<ReviewDto> AuditAsync(Guid id, AuditRequedtDto input)
         {

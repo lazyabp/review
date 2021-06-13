@@ -17,6 +17,7 @@ namespace Lazy.Abp.ReviewKit.Admin
             reviewPermission.AddChild(ReviewKitAdminPermissions.Review.Create, L("Permission:Create"));
             reviewPermission.AddChild(ReviewKitAdminPermissions.Review.Update, L("Permission:Update"));
             reviewPermission.AddChild(ReviewKitAdminPermissions.Review.Delete, L("Permission:Delete"));
+            reviewPermission.AddChild(ReviewKitAdminPermissions.Review.Audit, L("Permission:Audit"));
         }
 
         private static LocalizableString L(string name)

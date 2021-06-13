@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazy.Abp.ReviewKit.Host.Sha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazy.Abp.ReviewKit.Web.Unified", "host\Lazy.Abp.ReviewKit.Web.Unified\Lazy.Abp.ReviewKit.Web.Unified.csproj", "{52B6A410-8893-4D03-B6C2-AC06C831C909}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazy.Abp.ReviewKit.HttpApi.Host", "host\Lazy.Abp.ReviewKit.HttpApi.Host\Lazy.Abp.ReviewKit.HttpApi.Host.csproj", "{1D91C8B2-D10D-48A6-81DF-DA020B99FED1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{52B6A410-8893-4D03-B6C2-AC06C831C909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B6A410-8893-4D03-B6C2-AC06C831C909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B6A410-8893-4D03-B6C2-AC06C831C909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D91C8B2-D10D-48A6-81DF-DA020B99FED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D91C8B2-D10D-48A6-81DF-DA020B99FED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D91C8B2-D10D-48A6-81DF-DA020B99FED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D91C8B2-D10D-48A6-81DF-DA020B99FED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{081861A7-4AE2-4031-A0F4-2ED14BA0E564} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
 		{D63F062C-9981-4D32-AE83-0978C67CBA02} = {E400416D-2895-4512-9D17-90681EEC7E0A}
 		{52B6A410-8893-4D03-B6C2-AC06C831C909} = {E400416D-2895-4512-9D17-90681EEC7E0A}
+		{1D91C8B2-D10D-48A6-81DF-DA020B99FED1} = {E400416D-2895-4512-9D17-90681EEC7E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4324B3B4-B60B-4E3C-91D8-59576B4E26DD}

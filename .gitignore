@@ -21,6 +21,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]ogs/
 [Ll]ocalNuget/
 
 # Visual Studio 2015 cache/options directory
@@ -253,7 +254,7 @@ paket-files/
 *.sln.iml
 
 # ReviewKit
-host/LazyAbp.ReviewKit.IdentityServer/Logs/logs.txt
-host/LazyAbp.ReviewKit.HttpApi.Host/Logs/logs.txt
-host/LazyAbp.ReviewKit.Web.Host/Logs/logs.txt
-host/LazyAbp.ReviewKit.Web.Unified/Logs/logs.txt
+host/Lazy.Abp.ReviewKit.IdentityServer/Logs/logs.txt
+host/Lazy.Abp.ReviewKit.HttpApi.Host/Logs/logs.txt
+host/Lazy.Abp.ReviewKit.Web.Host/Logs/logs.txt
+host/Lazy.Abp.ReviewKit.Web.Unified/Logs/logs.txt
